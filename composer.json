@@ -1,0 +1,30 @@
+{
+    "name": "valunt/core",
+    "description": "The core framework of Valunt CMS.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouzishu",
+            "email": "me@zzs.im"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Valunt\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
